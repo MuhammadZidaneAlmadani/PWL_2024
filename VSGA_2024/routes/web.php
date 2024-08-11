@@ -1,12 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\pengajarController;
 use App\Http\Controllers\PageControllerSatu;
 use App\Http\Controllers\CRUDController;
 use App\Http\Controllers\PhotoController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\halloController;
+=======
+
+>>>>>>> 8ca8a11d82d7a34ffa805a0db40a01cbb0cb0e7c
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,6 +25,7 @@ use App\Http\Controllers\halloController;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 
 Route :: get('/hello', function(){
     return 'hello VSGA';
@@ -134,3 +139,5 @@ Route::get('/heloow',[
     halloController::class,
     'helow'
 ]);
+=======
+>>>>>>> 8ca8a11d82d7a34ffa805a0db40a01cbb0cb0e7c
